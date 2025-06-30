@@ -144,6 +144,48 @@ body {
   box-shadow: 1px 1px 3px rgba(1, 1, 3, 0.5);
 }
 
+/* about section */
+.about {
+  padding: 7rem 3% 1.4rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2.6rem;
+}
+
+.about h2 span {
+  color: var(--font);
+}
+
+.about .row {
+  display: flex;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 49.5%;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+}
+
 /* media queries */
 /* laptop */
 @media (max-width: 1366px) {
@@ -189,6 +231,29 @@ body {
 
   .nav .nav-navbar a:hover::after {
     transform: scalex(0.2);
+  }
+
+  .about .row {
+    flex-wrap: wrap;
+  }
+
+  .about .row .about-img img {
+    width: 49%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about .row .content {
+    padding: 0;
+  }
+
+  .about .row .content h3 {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+
+  .about .row .content p {
+    font-size: 1.6rem;
   }
 }
 /* hp */
