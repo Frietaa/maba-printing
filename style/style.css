@@ -207,7 +207,7 @@ body {
     position: absolute;
     top: 100%;
     right: -100%;
-    background-color: rgb(255, 255, 255, 0.8);
+    background-color: rgb(1, 1, 1, 0.5);
     width: 30rem;
     height: 100vh;
     transition: 0.2s;
@@ -218,7 +218,7 @@ body {
   }
 
   .nav .nav-navbar a {
-    color: var(--bg);
+    color: #fff;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
